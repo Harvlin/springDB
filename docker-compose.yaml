@@ -5,10 +5,10 @@ services:
     image: mysql:8.0
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: Vlin*560
+      MYSQL_ROOT_PASSWORD: 
       MYSQL_DATABASE: spring_db
       MYSQL_USER: root
-      MYSQL_PASSWORD: Vlin*560
+      MYSQL_PASSWORD: 
     ports:
       - "3306:3306"
     volumes:
